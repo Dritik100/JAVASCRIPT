@@ -43,3 +43,30 @@ let myObj = {
 
 console.log(typeof anotherId);
 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++////
+
+//two types memory
+//1.stack memory jb used hoti to copy milti hai (primitive datatypes) 
+//2.heap refernece original value ka milta hai (Non-premitive datatypes)
+
+// let myName= "ritik dubey";
+// let anotherName= myName;
+// anotherName="JAVASCRIPT";
+// console.log(myName);
+// console.log(anotherName);
+
+
+let userOne= {
+  email:"user@gmail.com",
+  upi:"upi@ybl"
+}
+
+let userTwo = userOne;
+ userTwo.email= "ritik@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
